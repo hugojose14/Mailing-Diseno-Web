@@ -52,7 +52,16 @@ table {
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	background-color: #f87f73;
+	background-image: linear-gradient(to left, rgba(0,0,0,0) 40%,
+    rgba(255,255,255,0) 60%, rgba(255,255,255,.5)), 
+    linear-gradient(to top right, #dff0ea 50%, #dff0ea 50%);
 }
+
+#online{
+	margin-top: 15px;
+}
+
 /*Link para mirar el mensaje online*/
 .header #online{
 	text-align: center;
@@ -128,10 +137,10 @@ a.button2{
 	text-decoration:none;
 	font-family:'Roboto',sans-serif;
 	font-weight:300;
-	color:black;
+	color:white;
 	/*color:#FFFFFF;
 	background-color:#4eb5f1;*/
-	background: #4095c6;
+	background:  #1089ff;
 	text-align:center;
 	transition: all 0.2s;
 }
@@ -276,6 +285,10 @@ a.button2:hover{
 #account{
 	color:black;
 }
+
+
+
+
 @media all and (max-width:30em){
 	a.button2{
 	display:block;
